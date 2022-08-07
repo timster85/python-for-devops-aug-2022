@@ -30,8 +30,19 @@ Build out pythin scaffold
    1. it will load it everytime I open an interprteur
    2. vim `~/.bashrc` scroll to bottom shift + g, o for new line
    3. add source ./venv/activate
+
+
 ### AWS Cloudshell
 ### AWS Cloud9
+
+Things to note when using the cloud based environments. There could be modules installed you don reall need check:
+1. `pip freeze | less` or `pip freeeze | wc -l` to see how many modules libraries that are installed ![image](https://user-images.githubusercontent.com/32961611/183281416-29ee4163-d530-4b08-b57a-7b668a9bbd04.png)
+2. this is why virtual invironments are important us control what is installed ![image](https://user-images.githubusercontent.com/32961611/183281385-ed76b440-e485-41b7-bf63-860c3bcb3db1.png)
+3. Good practise would be to create a virtual enironment `python3 -m venv ~/.venv` *remember bashrc*
+   1.`## sourcing virtual env
+     source ~/.venv/bin/activate`
+4. Open new terminal to launch a new virtual eniroment - you can now build out the libraries your need
+5. 
 
 ## Command-Line Tools
 
