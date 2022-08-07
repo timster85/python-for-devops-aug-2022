@@ -42,7 +42,26 @@ Things to note when using the cloud based environments. There could be modules i
    1.`## sourcing virtual env
      source ~/.venv/bin/activate`
 4. Open new terminal to launch a new virtual eniroment - you can now build out the libraries your need
-5. 
+5. Check libaries they are now zero ![image](https://user-images.githubusercontent.com/32961611/183282363-1c7ff259-3d2c-46ea-9197-ed9dc3401c70.png)
+
+*requirements.txt*
+1. used to explicitly say what you want installed in your project no guessing here
+2. Library and version listed
+3. Make installation part of your makefile
+
+*Makefile*
+1. Makefile should alway be tabs could cause problems.
+2. Example below REMEBER to save file
+
+`install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt`
+
+3. then browse to directory and execute `make install`
+4. you can then list you libaries for versions and pick the copy the verions to your makefile
+5. This way you know that this verison will always be correct going forward ![image](https://user-images.githubusercontent.com/32961611/183282908-cde137c4-5ad1-4b19-8e1b-dade93104144.png)
+6. This is best practise for reusable code
+7. 
 
 ## Command-Line Tools
 
