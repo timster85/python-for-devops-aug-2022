@@ -61,7 +61,12 @@ Things to note when using the cloud based environments. There could be modules i
 4. you can then list you libaries for versions and pick the copy the verions to your makefile
 5. This way you know that this verison will always be correct going forward ![image](https://user-images.githubusercontent.com/32961611/183282908-cde137c4-5ad1-4b19-8e1b-dade93104144.png)
 6. This is best practise for reusable code
-7. 
+
+## Coninious integration
+
+There are many ways to automat. Many ways to do continuous intregration 
+	GitHub actions
+	AWS Build system
 
 ## Command-Line Tools
 
