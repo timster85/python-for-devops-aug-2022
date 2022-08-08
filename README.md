@@ -1,6 +1,10 @@
 # python-for-devops-aug-2022
 From Zero Repo for doing devops work
 
+## Status
+
+[![Test Multiple Python Versions](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml/badge.svg)](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml)
+
 ## Create a project scafford
 
 Create dev enviroments that are cloud based: 
@@ -67,6 +71,13 @@ Things to note when using the cloud based environments. There could be modules i
 There are many ways to automat. Many ways to do continuous intregration 
 	GitHub actions
 	AWS Build system
+	
+### GitHub Actions
+
+Designed for you to do devops. Build, test, and deploy your code. 
+
+You can find tons of deployment recipes. 
+As long as you have `.github/workflows/` it will run the file in yml/style format in there it will run
 
 ## Command-Line Tools
 
