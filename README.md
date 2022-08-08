@@ -18,7 +18,7 @@ this is some documentation of how to use [colab](https://github.com/tim-webster-
 
 Build out pythin scaffold
 * Makefile (i.e think cookbook) keeps track of complex things
-  * touch Makefile - touch command great for building out an empty file
+  * touch Makefile - `touch` command great for building out an empty file
   * mkdir -- create a directory
   * *[init].py* tells the python interpreter where there will be some source code
 * requirements.txt - for python
@@ -38,6 +38,11 @@ Build out pythin scaffold
 
 ### AWS Cloudshell
 ### AWS Cloud9
+
+*Tip*
+. Show hidden files
+. To get out of python virtual enviroment type `deactivate`
+. 'which ipython' to see where you are running python i.e. from venv or local
 
 Things to note when using the cloud based environments. There could be modules installed you don reall need check:
 1. `pip freeze | less` or `pip freeeze | wc -l` to see how many modules libraries that are installed ![image](https://user-images.githubusercontent.com/32961611/183281416-29ee4163-d530-4b08-b57a-7b668a9bbd04.png)
@@ -78,6 +83,15 @@ Designed for you to do devops. Build, test, and deploy your code.
 
 You can find tons of deployment recipes. 
 As long as you have `.github/workflows/` it will run the file in yml/style format in there it will run
+
+Nice idea to add status badges to your README from github actions.
+
+yml file failing because we dont have any steps for make lint, test or format
+
+Build out some python commands i.e. random fruit call it in hello.py
+
+Add to make file pylint commands 
+	pylint commad is 'make lint'
 
 ## Command-Line Tools
 
