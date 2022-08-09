@@ -99,6 +99,9 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 * Build out some python commands i.e. random fruit call it in `hello.py`
 * Add to make file pylint commands 
     pylint command is `make lint`
+* Continue with testing `pip freeze | grep pytest-cov`
+
+* change a files name you can run this `git mv test_hello.py test_devopslib.py`
 
 ## Command-Line Tools
 
