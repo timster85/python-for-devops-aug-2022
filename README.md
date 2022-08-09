@@ -7,6 +7,19 @@ From Zero Repo for doing devops work
 
 [![Test Multiple Python Versions](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml/badge.svg)](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml)
 
+## Files
+
+[Makefile](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/Makefile)
+[requirements.txt](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/requirements.txt)
+[test_devopslib.py](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/test_devopslib.py)
+[Python Library](https://github.com/tim-webster-7D/python-for-devops-aug-2022/tree/main/devopslib)
+
+## How to run
+
+1. Create virtualenv - virtual environment `virtualenv ~/.venv`
+2. Edit my `~.bashrc` `source ./venv/bin/activate`
+3. clone project then run `make all`
+
 ## Create a project scaffold
 
 Create dev environments that are cloud based: 
