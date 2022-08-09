@@ -1,6 +1,8 @@
 # python-for-devops-aug-2022
 From Zero Repo for doing devops work
 
+[orginal repo from video](https://github.com/noahgift/python-for-devops-may-2022)
+
 ## Status
 
 [![Test Multiple Python Versions](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml/badge.svg)](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml)
@@ -102,6 +104,15 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 * Continue with testing `pip freeze | grep pytest-cov`
 
 * change a files name you can run this `git mv test_hello.py test_devopslib.py`
+* add code to test some thing in your test file
+* update your make file to look at your test files
+* run `make test`
+
+*MakeFile*
+
+* Formating - cleans up code get's rid of spaces any, tabe, weird things, written in a way thats bad to read.
+* Adding an `all:` step you can choice the order of install and tell a colleage to just run `make all`
+* 
 
 ## Command-Line Tools
 
