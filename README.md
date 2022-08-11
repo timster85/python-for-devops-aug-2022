@@ -129,6 +129,15 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 
 ## Command-Line Tools
 
+![image](https://user-images.githubusercontent.com/32961611/184176244-1ac64095-17ad-4c79-8583-40d897fd32d1.png)
+
+**INPUT --> FUNCTION --> RETURN RESULT**
+
+* AWS Lambda is a create way to do this
+* FUNCTION is a unit of work
+
+
+
 ## Microservices
 
 ## Containerized Continuous Delivery
