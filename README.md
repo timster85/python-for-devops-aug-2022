@@ -127,7 +127,7 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 * Adding an `all:` step you can choice the order of install and tell a colleage to just run `make all`
 * 
 
-## Command-Line Tools
+## Command-Line Tools and step functions
 
 ![image](https://user-images.githubusercontent.com/32961611/184176244-1ac64095-17ad-4c79-8583-40d897fd32d1.png)
 
@@ -135,10 +135,17 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 
 * AWS Lambda is a create way to do this
 * FUNCTION is a unit of work
+* AWS step functions to tie it all together
 
 Python Fire Libarary
 
+* https://github.com/google/python-fire
+* add `fire` to requitements.txt 
+* then do a make install which will install the fire library
+* got a `pip freeze | grep fire` add version to requirements
+* allows you to build out a command line tool to interagte your code create some tests ect..
 
+![image](https://user-images.githubusercontent.com/32961611/184318796-e004ff2f-2dd6-4e03-becb-13ff2b05ad67.png)
 
 
 ## Microservices
