@@ -1,5 +1,6 @@
 # python-for-devops-aug-2022
 From Zero Repo for doing devops work
+course - https://learning.oreilly.com/videos/python-for-devops/05052022VIDEOPAIML/05052022VIDEOPAIML-c1_s0/
 
 [orginal repo from video](https://github.com/noahgift/python-for-devops-may-2022)
 
