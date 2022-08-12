@@ -137,6 +137,12 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 * FUNCTION is a unit of work
 * AWS step functions to tie it all together
 
+### USeful things to run
+
+* `make lint`
+* `make all`
+* `black {filename.py}` or `make format`
+
 Python Fire Libarary
 
 * https://github.com/google/python-fire
