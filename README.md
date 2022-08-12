@@ -180,6 +180,7 @@ all running out of FastAPI
 
 Has ability to use swagger documentation
 
+Install corpus `python -m textblob.download_corpora`
 
 
 
