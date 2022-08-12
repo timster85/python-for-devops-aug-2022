@@ -14,6 +14,7 @@ def test_fruit():
         "peach",
     ]
 
-    def test_meal():
-        result = meal("milk")
-        assert "milk" in result
+
+def test_meal():
+    result = meal("milk")
+    assert "milk" in result
