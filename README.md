@@ -177,11 +177,16 @@ created a logic.py
 * `curl http://0.0.0.0:8080/phrase/war`
 
 all running out of FastAPI
+
 ![image](https://user-images.githubusercontent.com/32961611/184345850-9141094a-4174-433f-9fbd-78e03290109a.png)
 
 Has ability to use swagger documentation
 
 Install corpus `python -m textblob.download_corpora`
+
+ERROR MESSAGE `/home/tim/.venv/bin/python: No module named pytest`
+`python3 -m pip install pytest`
+`python3 -m pip install  pytest-cov`
 
 
 
