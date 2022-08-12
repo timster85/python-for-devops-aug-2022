@@ -162,7 +162,25 @@ Python Fire Libarary
 ## Microservices
 
 Build out a fast API mirco service
+Used wiki to serach
+created a logic.py
 
 
 
 ## Containerized Continuous Delivery
+
+* created a dockerfile
+* created main.py
+* python main.py
+* new terminal add `curl http://0.0.0.0:8080/search/google`
+* `curl http://0.0.0.0:8080/phrase/war`
+
+all running out of FastAPI
+![image](https://user-images.githubusercontent.com/32961611/184345850-9141094a-4174-433f-9fbd-78e03290109a.png)
+
+Has ability to use swagger documentation
+
+
+
+
+
