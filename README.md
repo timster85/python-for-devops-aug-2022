@@ -9,10 +9,15 @@ From Zero Repo for doing devops work
 
 ## Files
 
-[Makefile](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/Makefile)
-[requirements.txt](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/requirements.txt)
-[test_devopslib.py](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/test_devopslib.py)
-[Python Library](https://github.com/tim-webster-7D/python-for-devops-aug-2022/tree/main/devopslib)
+* [Makefile](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/Makefile)
+* [requirements.txt](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/requirements.txt
+* [test_devopslib.py](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/test_devopslib.py)
+* [Python Library](https://github.com/tim-webster-7D/python-for-devops-aug-2022/tree/main/devopslib)
+
+### Instructor repo
+
+* https://github.com/noahgift/python-for-devops-april-2022
+* https://github.com/noahgift/python-for-devops-may-2022
 
 ## How to run
 
@@ -137,7 +142,7 @@ As long as you have `.github/workflows/` it will run the file in yml/style forma
 * FUNCTION is a unit of work
 * AWS step functions to tie it all together
 
-### USeful things to run
+### Useful things to run
 
 * `make lint`
 * `make all`
@@ -155,5 +160,9 @@ Python Fire Libarary
 
 
 ## Microservices
+
+Build out a fast API mirco service
+
+
 
 ## Containerized Continuous Delivery
