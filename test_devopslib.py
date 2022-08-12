@@ -1,4 +1,4 @@
-from devopslib.randomfruit import fruit
+from devopslib.randomfruit import fruit, meal
 
 
 def test_fruit():
@@ -13,3 +13,7 @@ def test_fruit():
         "blueberry",
         "peach",
     ]
+    
+    def test_meal():
+        result = meal("milk")
+        assert "milk" in result 
