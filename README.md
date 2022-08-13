@@ -44,7 +44,7 @@ Build out python scaffold
   * `__[init]__.py` tells the python interpreter where there will be some source code
 * requirements.txt - for python
 * test - test_library.py
-* python library
+* python library (i.e devopslib
 * Dockerfile - build out containers
 * Commandline tooling
 * Microservice
@@ -87,7 +87,7 @@ Things to note when using the cloud based environments. There could be modules i
 3. Make installation part of your makefile
 
 **Makefile**
-1. Makefile should always be tabs could cause problems.
+1. NB!!!!! - Makefile should always be *tabs* could cause problems.
 2. Example below REMEMBER to save file
 
 `install:
