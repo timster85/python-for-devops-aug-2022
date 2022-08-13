@@ -23,7 +23,7 @@ course - https://learning.oreilly.com/videos/python-for-devops/05052022VIDEOPAIM
 ## How to run
 
 1. Create virtualenv - virtual environment `virtualenv ~/.venv`
-2. Edit my `~.bashrc` `source ./venv/bin/activate`
+2. Edit my `~.bashrc` `source ~/.venv/bin/activate`
 3. clone project then run `make all`
 
 ## Create a project scaffold
