@@ -23,8 +23,9 @@ course - https://learning.oreilly.com/videos/python-for-devops/05052022VIDEOPAIM
 ## How to run
 
 1. Create virtualenv - virtual environment `virtualenv ~/.venv`
-2. Edit my `~.bashrc` `source ./venv/bin/activate`
+2. Edit my `~.bashrc` `source ~/.venv/bin/activate`
 3. clone project then run `make all`
+4. download corpus - `python -m textblob.download_corpora`
 
 ## Create a project scaffold
 
@@ -44,7 +45,7 @@ Build out python scaffold
   * `__[init]__.py` tells the python interpreter where there will be some source code
 * requirements.txt - for python
 * test - test_library.py
-* python library
+* python library (i.e devopslib
 * Dockerfile - build out containers
 * Commandline tooling
 * Microservice
@@ -87,7 +88,7 @@ Things to note when using the cloud based environments. There could be modules i
 3. Make installation part of your makefile
 
 **Makefile**
-1. Makefile should always be tabs could cause problems.
+1. NB!!!!! - Makefile should always be *tabs* could cause problems.
 2. Example below REMEMBER to save file
 
 `install:
@@ -188,6 +189,54 @@ ERROR MESSAGE `/home/tim/.venv/bin/python: No module named pytest`
 `python3 -m pip install pytest`
 `python3 -m pip install  pytest-cov`
 
+In cloud9 you can preview `python main.py` by going to the EC instance.
+and opening up port 8080 in the security groups inbound rule for your IP address. 
+* [see this solution](https://stackoverflow.com/questions/49864209/cant-preview-hello-world-application-in-aws-cloud9-c9-python-flask)
+
+http://18.184.2.39:8080/docs
+* remember the `/docs`
+
+![image](https://user-images.githubusercontent.com/32961611/184476024-974dafad-0ae4-4c26-bb91-cc2aee62a895.png)
 
 
+### How to containerize all this?
 
+Use docker to push this into the AWS echo system
+* Docker file for code in repo
+* python:3.8.13-slim-buster - this is a really slimmed down versionof linux and python
+
+
+### Check out AWS container registry and AWS App Runner
+
+![image](https://user-images.githubusercontent.com/32961611/184476213-14a4bd61-1af1-4926-a903-bb7d11fb3aa1.png)
+![image](https://user-images.githubusercontent.com/32961611/184476255-402a8650-b2f0-497c-aaea-461e36a4c060.png)
+
+#### AWS container registry
+* This could be the future of DevOps
+* Container registry
+* You push it into a container regisrty 
+* then PAAS tools engulf it and deplys it
+
+#### AWS App Runner
+
+![image](https://user-images.githubusercontent.com/32961611/184476341-57e0fa02-5175-424c-ad4a-43c2bd4d26de.png)
+
+
+* Similair to Google cloud run
+* Container base workflow
+
+* push to container repo
+* view push caommands
+* AWS has deep and tight intergration to Cloud dev enviroment
+
+![image](https://user-images.githubusercontent.com/32961611/184476443-908fe0f2-2e89-44c1-937d-8f57e2ec5de7.png)
+
+* follow steps in above image to connect deploy, tag and push docker image
+* `docker image ls` to see your container name
+* `docker run -p 127.0.0.1:8080:8080 54a55841624f`
+* you can then go to app runner and deploy it there
+
+#### AWS CodeBuild (like github actions)
+
+* buildspec.yml
+* fix make file with steps
