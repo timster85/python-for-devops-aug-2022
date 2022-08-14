@@ -253,7 +253,7 @@ Build system that does continous delivery
 * buildspec.yml
 * fix make file with steps add the deploy steps
 * Same steps used above from AWS container registry
-* Create a build project 
+* Create a build project.
 
 
 ### Build issues
