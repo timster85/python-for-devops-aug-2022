@@ -235,8 +235,17 @@ Use docker to push this into the AWS echo system
 * `docker image ls` to see your container name
 * `docker run -p 127.0.0.1:8080:8080 54a55841624f`
 * you can then go to app runner and deploy it there
+* create in app runner connect to your repo
+
+![image](https://user-images.githubusercontent.com/32961611/184477806-bbb782f1-56f7-4d94-89e1-5c15a7b3e841.png)
+
 
 #### AWS CodeBuild (like github actions)
 
+Build system that does continous delivery
+
 * buildspec.yml
-* fix make file with steps
+* fix make file with steps add the deploy steps
+* Same steps used above from AWS container registry
+* Create a build project 
+* 
