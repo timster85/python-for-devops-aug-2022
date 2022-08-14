@@ -254,4 +254,10 @@ Build system that does continous delivery
 * fix make file with steps add the deploy steps
 * Same steps used above from AWS container registry
 * Create a build project 
-* 
+
+
+### Docker issues
+
+![image](https://user-images.githubusercontent.com/32961611/184533648-cdda8a1f-e8f0-4a71-bac0-6b863a4c3760.png)
+
+
