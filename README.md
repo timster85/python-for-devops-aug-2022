@@ -23,9 +23,10 @@ course - https://learning.oreilly.com/videos/python-for-devops/05052022VIDEOPAIM
 ## How to run
 
 1. Create virtualenv - virtual environment `virtualenv ~/.venv`
-2. Edit my `~.bashrc` `source ~/.venv/bin/activate`
-3. clone project then run `make all`
-4. download corpus - `python -m textblob.download_corpora`
+2. Edit my `vim ~/.bashrc` `source ~/.venv/bin/activate`
+3. Open new termial in virtual envrironment
+4. clone project then run `make all`
+5. download corpus - `python -m textblob.download_corpora`
 
 ## Create a project scaffold
 
