@@ -8,6 +8,11 @@ course - https://learning.oreilly.com/videos/python-for-devops/05052022VIDEOPAIM
 
 [![Test Multiple Python Versions](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml/badge.svg)](https://github.com/tim-webster-7D/python-for-devops-aug-2022/actions/workflows/main.yml)
 
+## AWS Build 
+
+[![AWS ColdBuild](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSXBZNUlrTTJQWVBNY0J3Zmc0MVhXdVFodUZvUGRsZko1UU43cnczMHZyRDRsUGlGaDRjNHBxVHh4M3hQN0VNV1B3TU0rSXhHdk1TbUVRcERCNlV5OW1FPSIsIml2UGFyYW1ldGVyU3BlYyI6IjF1UnRBK09UNytxZitCcW0iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+
+
 ## Files
 
 * [Makefile](https://github.com/tim-webster-7D/python-for-devops-aug-2022/blob/main/Makefile)
