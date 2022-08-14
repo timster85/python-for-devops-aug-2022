@@ -260,4 +260,10 @@ Build system that does continous delivery
 
 ![image](https://user-images.githubusercontent.com/32961611/184533648-cdda8a1f-e8f0-4a71-bac0-6b863a4c3760.png)
 
+* caused by permission errors followed [this](https://stackoverflow.com/questions/70828205/pushing-an-image-to-ecr-getting-retrying-in-seconds)
+
+![image](https://user-images.githubusercontent.com/32961611/184535772-d4c7d38c-d8b4-426a-bf42-1a3c80084dcd.png)
+
+
+
 
