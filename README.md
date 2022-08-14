@@ -217,7 +217,7 @@ Use docker to push this into the AWS echo system
 ![image](https://user-images.githubusercontent.com/32961611/184476213-14a4bd61-1af1-4926-a903-bb7d11fb3aa1.png)
 ![image](https://user-images.githubusercontent.com/32961611/184476255-402a8650-b2f0-497c-aaea-461e36a4c060.png)
 
-#### AWS container registry
+#### AWS container registry ERC
 * This could be the future of DevOps
 * Container registry
 * You push it into a container regisrty 
@@ -256,7 +256,7 @@ Build system that does continous delivery
 * Create a build project 
 
 
-### Docker issues
+### Build issues
 
 ![image](https://user-images.githubusercontent.com/32961611/184533648-cdda8a1f-e8f0-4a71-bac0-6b863a4c3760.png)
 
